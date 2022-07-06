@@ -12,4 +12,4 @@ def add_handlers(disp: Dispatcher) -> None:
     """
 
     # Command handlers
-    disp.add_handler("start", start_cmd)
+    disp.add_handler(CommandHandler("start", start_cmd))
